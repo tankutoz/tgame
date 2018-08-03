@@ -4,7 +4,7 @@ using UnityEngine;
 
 // C# example
 using UnityEditor;
-public static class EditorScript
+public static class BuildScript
 {
     public static void PerformBuild()
     {
