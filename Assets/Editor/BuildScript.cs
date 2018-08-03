@@ -4,9 +4,9 @@ using UnityEngine;
 
 // C# example
 using UnityEditor;
-class EditorScript
+public static class EditorScript
 {
-    static void PerformBuild()
+    public static void PerformBuild()
     {
         string[] scenes = { "Assets/Game.unity" };
         BuildPipeline.BuildPlayer(scenes, "C:\\Users\\toz\\Desktop\\deneme\\", BuildTarget.StandaloneWindows, BuildOptions.None);
